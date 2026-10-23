@@ -1,0 +1,34 @@
+{
+  "name": "jeevansetu-hackathon",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "//configLoader": "native loads vite.config.js with Node instead of bundling it via esbuild. esbuild's helper binary stalls when the project sits in a macOS privacy-protected folder (Downloads/Documents/Desktop), and native loading is also faster.",
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,green \"vite --host --configLoader native\" \"nodemon server/index.js\"",
+    "build": "vite build --configLoader native",
+    "preview": "vite preview --configLoader native",
+    "serve": "node server/index.js",
+    "start": "npm run build && npm run serve",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^9.10.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^10.0.5",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.0",
+    "vite": "^6.0.5"
+  }
+}

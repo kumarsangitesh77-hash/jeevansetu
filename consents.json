@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "id": "CSN-MUN6L9X7-4F784514",
+      "token": "JSC-5H5V-573J-6H2Y-VBHK",
+      "createdAt": "2026-09-29T21:21:12.571Z",
+      "expiresAt": "2026-09-29T21:51:12.571Z",
+      "ttlMs": 1800000,
+      "actorRole": "patient",
+      "sessionId": "SES-CA2A44155CBA49B9",
+      "recipient": "caregiver",
+      "purpose": "Care coordination",
+      "fields": [
+        "symptoms",
+        "riskLevel"
+      ],
+      "sensitivity": [
+        "medium"
+      ],
+      "maxViews": 5,
+      "viewCount": 1,
+      "status": "active",
+      "snapshot": {
+        "symptoms": [
+          "Chest pain or pressure",
+          "Difficulty breathing"
+        ],
+        "riskLevel": "emergency"
+      },
+      "snapshotHash": "cd76a17b6f51647a826691fda972feb3ca937785df12f08f9a541c265e6e17ef",
+      "accesses": [
+        {
+          "at": "2026-09-29T21:21:43.387Z",
+          "requesterRole": "caregiver",
+          "requesterIp": "12ca17b49af22894",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "CSN-MUN43NU1-9C5F2311",
+      "token": "JSC-22TD-ZWTJ-4FGY-FSNA",
+      "createdAt": "2026-09-29T20:11:31.561Z",
+      "expiresAt": "2026-09-29T20:41:31.561Z",
+      "ttlMs": 1800000,
+      "actorRole": "patient",
+      "sessionId": null,
+      "recipient": "caregiver",
+      "purpose": "Care coordination",
+      "fields": [
+        "symptoms",
+        "riskLevel"
+      ],
+      "sensitivity": [
+        "medium"
+      ],
+      "maxViews": 5,
+      "viewCount": 0,
+      "status": "active",
+      "snapshot": {
+        "symptoms": [
+          "Chest pain"
+        ],
+        "riskLevel": "emergency"
+      },
+      "snapshotHash": "9d086524715cb08d79d06df5d8c56e1c8e9b3dc1fe29a8bcb1813d160804cb11",
+      "accesses": []
+    }
+  ]
+}

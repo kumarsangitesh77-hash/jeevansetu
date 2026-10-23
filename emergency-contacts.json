@@ -1,0 +1,188 @@
+{
+  "_comment": "Publicly published Indian emergency numbers. Included for care navigation in a demo. Always confirm the local number before relying on it.",
+  "disclaimer": "Numbers are published public helplines. JeevanSetu does not dispatch ambulances or verify live availability.",
+  "verifiedAsOf": "2026-09-30",
+  "contacts": [
+    {
+      "id": "112",
+      "number": "112",
+      "name": "National Emergency Number",
+      "nameHi": "राष्ट्रीय आपातकालीन नंबर",
+      "nameHinglish": "National Emergency Number",
+      "purpose": "Police, fire and medical — one number, all India",
+      "category": "emergency",
+      "priority": 1,
+      "languages": ["Hindi", "English", "Regional"],
+      "available": "24x7"
+    },
+    {
+      "id": "108",
+      "number": "108",
+      "name": "Ambulance (most states)",
+      "nameHi": "एम्बुलेंस (अधिकांश राज्य)",
+      "nameHinglish": "Ambulance (zyadatar states)",
+      "purpose": "Free emergency ambulance and trauma response",
+      "category": "ambulance",
+      "priority": 2,
+      "languages": ["Hindi", "English", "Regional"],
+      "available": "24x7"
+    },
+    {
+      "id": "102",
+      "number": "102",
+      "name": "Ambulance (some states) / maternal & child",
+      "nameHi": "एम्बुलेंस (कुछ राज्य) / मातृ एवं शिशु",
+      "nameHinglish": "Ambulance (kuch states) / maternal & child",
+      "purpose": "Patient transport, maternal and newborn emergencies",
+      "category": "ambulance",
+      "priority": 3,
+      "languages": ["Hindi", "English", "Regional"],
+      "available": "24x7"
+    },
+    {
+      "id": "14416",
+      "number": "14416",
+      "name": "tele-MANAS mental health helpline",
+      "nameHi": "टेली-मानस मानसिक स्वास्थ्य हेल्पलाइन",
+      "nameHinglish": "tele-MANAS mental health helpline",
+      "purpose": "Free 24x7 counselling in 20+ languages, including crisis support",
+      "category": "mental_health",
+      "priority": 4,
+      "languages": ["Hindi", "English", "20+ regional"],
+      "available": "24x7"
+    },
+    {
+      "id": "104",
+      "number": "104",
+      "name": "Health helpline",
+      "nameHi": "स्वास्थ्य हेल्पलाइन",
+      "nameHinglish": "Health helpline",
+      "purpose": "Medical advice and health information in many states",
+      "category": "medical_advice",
+      "priority": 5,
+      "languages": ["Hindi", "English", "Regional"],
+      "available": "24x7"
+    },
+    {
+      "id": "101",
+      "number": "101",
+      "name": "Fire",
+      "nameHi": "अग्निशमन",
+      "nameHinglish": "Fire",
+      "purpose": "Fire and rescue, including burn-injury response",
+      "category": "emergency",
+      "priority": 6,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    },
+    {
+      "id": "100",
+      "number": "100",
+      "name": "Police",
+      "nameHi": "पुलिस",
+      "nameHinglish": "Police",
+      "purpose": "Crime, accidents and threats to personal safety",
+      "category": "emergency",
+      "priority": 7,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    },
+    {
+      "id": "1098",
+      "number": "1098",
+      "name": "Childline",
+      "nameHi": "चाइल्डलाइन",
+      "nameHinglish": "Childline",
+      "purpose": "Children in distress, including medical emergencies",
+      "category": "child",
+      "priority": 8,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    },
+    {
+      "id": "181",
+      "number": "181",
+      "name": "Women helpline",
+      "nameHi": "महिला हेल्पलाइन",
+      "nameHinglish": "Women helpline",
+      "purpose": "Women in distress, including domestic violence",
+      "category": "women",
+      "priority": 9,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    },
+    {
+      "id": "1910",
+      "number": "1910",
+      "name": "Blood bank / donor information",
+      "nameHi": "ब्लड बैंक / दाता जानकारी",
+      "nameHinglish": "Blood bank / donor information",
+      "purpose": "Locate blood banks and donors",
+      "category": "medical",
+      "priority": 10,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    },
+    {
+      "id": "1033",
+      "number": "1033",
+      "name": "Road accident emergency",
+      "nameHi": "सड़क दुर्घटना आपातकाल",
+      "nameHinglish": "Road accident emergency",
+      "purpose": "Highway accident reporting and rescue",
+      "category": "emergency",
+      "priority": 11,
+      "languages": ["Hindi", "English"],
+      "available": "24x7"
+    }
+  ],
+  "whatToSay": {
+    "en": [
+      "Stay on the line and speak clearly.",
+      "Give the exact location, nearest landmark and city.",
+      "Describe the main symptom in one sentence and how long it has been present.",
+      "Say the person's approximate age and whether they are conscious and breathing.",
+      "Give a callback number and do not hang up until the operator tells you to.",
+      "Do not move someone with a suspected neck or spine injury unless they are in immediate danger."
+    ],
+    "hi": [
+      "लाइन पर बने रहें और साफ़ बोलें।",
+      "पूरा पता, नज़दीकी पहचान स्थान और शहर बताएं।",
+      "मुख्य लक्षण एक वाक्य में बताएं और कब से है यह भी बताएं।",
+      "मरीज़ की अनुमानित उम्र बताएं और बताएं कि वे होश में हैं और सांस ले रहे हैं या नहीं।",
+      "वापस कॉल करने के लिए नंबर दें और ऑपरेटर के कहने तक फ़ोन न काटें।",
+      "गर्दन या रीढ़ की चोट की आशंका हो तो मरीज़ को हिलाएं नहीं, जब तक उन्हें तुरंत ख़तरा न हो।"
+    ],
+    "hinglish": [
+      "Line par bane rahein aur clearly bolein.",
+      "Poora address, nearest landmark aur city bataiye.",
+      "Main symptom ek line mein bataiye aur kitni der se hai ye bhi bataiye.",
+      "Patient ki approximate age bataiye, aur ye ki wo conscious hai aur saans le raha hai ya nahi.",
+      "Callback number dijiye aur operator ke bolne tak phone mat kaatiye.",
+      "Gardan ya spine injury ki doubt ho to patient ko move na karein, jab tak turant khatra na ho."
+    ]
+  },
+  "firstAid": {
+    "en": {
+      "chest_pain": "Sit the person upright, loosen tight clothing, and keep them calm and still. Do not let them drive themselves. If they have prescribed Sorbitrate/GTN, help them take it as directed.",
+      "breathing_difficulty": "Sit them upright and leaning slightly forward. Loosen tight clothing, open a window, and keep the room clear. Do not lie them flat.",
+      "unconsciousness": "Check for breathing. If breathing, place them in the recovery position on their side. If not breathing, start CPR and call 108/112 immediately.",
+      "severe_bleeding": "Press firmly on the wound with a clean cloth and keep pressing. Raise the limb if it is not fractured. Do not remove a soaked cloth — add another on top.",
+      "seizure": "Do not restrain them or put anything in their mouth. Clear hard objects away, cushion the head, and time the seizure. Call for help if it lasts over 5 minutes.",
+      "stroke_signs": "Note the exact time symptoms started — this decides which treatment is possible. Do not give food, water or any medicine. Call an ambulance immediately.",
+      "sudden_weakness": "Sit or lie the person down so they cannot fall. Note the exact time it started and check whether one side of the face or body is affected. Call an ambulance.",
+      "poisoning": "Do not induce vomiting unless told to by a professional. Keep the container or a photo of what was swallowed and take it to the hospital.",
+      "severe_burns": "Cool the burn under running water for 20 minutes. Remove jewellery near the area before it swells. Do not apply ice, toothpaste, ghee or ointment. Cover loosely with a clean cloth.",
+      "snake_bite": "Keep the person still and calm, and immobilise the bitten limb below heart level. Do not cut, suck, or apply a tight tourniquet. Note the time of the bite and get to a hospital immediately.",
+      "anaphylaxis": "Use an adrenaline auto-injector if one has been prescribed. Lay them flat with legs raised unless breathing is easier sitting up. Call an ambulance even if they improve.",
+      "infant_danger": "Keep the baby warm and upright. Do not give any medicine without medical advice. Take the baby to the nearest hospital immediately.",
+      "pregnancy_emergency": "Lie her on her left side. Do not give anything to eat or drink. Take the antenatal record card to the hospital and call an ambulance.",
+      "meningism": "Do not wait to see if it settles. Keep the person in a dim, quiet room, do not give anything by mouth if they are drowsy, and get emergency help now.",
+      "head_injury": "Keep the person still and awake if possible. Do not give food, drink or painkillers. If there is fluid or blood from the ear or nose, do not block it — cover loosely and call an ambulance.",
+      "shock": "Lay the person flat and raise their legs unless that causes pain or breathing difficulty. Keep them warm with a blanket, give nothing to eat or drink, and call an ambulance.",
+      "vomiting_blood": "Sit them upright or lay them on their side so they cannot choke. Keep a sample or photo of what was vomited for the doctors, give nothing by mouth, and call an ambulance.",
+      "self_harm": "Stay with the person — do not leave them alone. Remove anything harmful from reach, listen without judgement, and call tele-MANAS on 14416 or 112 for immediate risk.",
+      "default": "Keep the person comfortable, still and observed. Do not give food, drink or medication unless previously prescribed for this situation. Call 112 or 108."
+    }
+  }
+}
